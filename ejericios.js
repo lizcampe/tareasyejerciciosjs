@@ -163,34 +163,53 @@ function multiplo () {
 */
 // Revisa cuantas veces se repite un valor dado en un arreglo
 
+/*
+
 var num =Number(prompt('ingresa num grande'));
 var w = Number(prompt('ingresa num a buscar'));
 console.log (num.split(w).length-1);
 
 // Divide un número de 3 dígitos en sus centenas, decenas y unidades
 
-
+function multiplo() {
+  let num= prompt('Ingresa número:')
+  num= 
   // 103 -> 1 centena, 0 decenas, 3 unidades
+}
 
 
 // Regresa todos los caracteres que no sean letras de una cadena
 
 
 // Haz una función que lanza un error con el mensaje dado por el usuario
-
+function 
 
 // Extiende la función anterior para atrapar el error e imprimir su mensaje y stack
+*/
+/*
 
+try{ }
 
+catch (error){ alert;  }
 
-try{} 
-catch (error){}
 
 
 // Suma los contenidos de un arreglo de números
-
-
+var losNumeros = Arr();
+var suma = 0;
+function sumandoNumeros() {
+  for (n=0; n<5; n++){
+  losNumeros[5]=Number(prompt('escribe un número'))
+}
+ for (i= 0; i < losNumeros.length; i++) {
+  suma+= losNumeros[i];
+ }
+ return suma
+}
+ alert ('la suma es ' + sumandoNumeros());
 // Regresa un arreglo nuevo con el cuadrado de cada valor del arreglo original
+
+l
 
 // Regresa que tipo de ángulo es el dado
 /*
@@ -198,30 +217,83 @@ catch (error){}
   Recto: 90 grados
   Obtuso: 90 a 180 grados
   Llano: 180 grados
-*/
+
+
+
+
 
 
 // Regresa un arreglo nuevo sin los valores repetidos de un arreglo original
 
+//arr 
+
 
 // Quita los valores repetidos de un arreglo (sin usar otro arreglo)
-
+//(el del set)
 
 // Convierte un número binario dado por el usuario a decimal
 
-                                                                                   
+var num =Number(prompt('escribe un número'));
+
+
+alert( num.toString(2) );  
+
 // Convierte un número decimal dado por el usuario a binario, octal y hexadecimal (bases 2, 8 y 16)
+
+var num =Number(prompt('escribe un número'));
+
+
+alert( num.toString(2) );  
+alert( num.toString(8) );
+alert( num.toString(16) );
+
 
 
 // Regresa la cantidad de valores que comparten dos arreglos diferentes
+*/
 
+var array =[5,5,4,7,8];
+var thisArg= [5,3,5,5,2,5,3];
+
+
+ var resultado = thisArg.filter( (galletita ) =>  {
+  return array.includes(galletita);
+  
+  
+});
+
+console.log(resultado);
+ 
+
+/*
+
+
+array1 = ["uno", "dos", "tres"];    
+array2 = ["tres", "dos", "uno"];
+
+array1.sort();
+array2.sort();
+
+
+array1.length==array2.length && array1.every(function(v,i)
+  { return v === array2[i] }
+
+*/
 
 // Valida que una cadena dada no tenga espacios en blanco
 
+var cara = String(prompt(Escriba su cadena));
+
+function espBlan {
+  if
+}
 var a =String 
 
-// Dada una cadena, determina su valor de scrabble
+
+
 /*
+// Dada una cadena, determina su valor de scrabble
+
   1: E, A, I, O, N, R, T, L, S, U
   2: D, G
   3: B, C, M, P
